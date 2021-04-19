@@ -13,14 +13,11 @@
       <change afterPath="$PROJECT_DIR$/app/containers/App/Wrappers.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/containers/App/actions.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/containers/App/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/containers/App/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/containers/App/reducer.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/containers/App/saga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/Loadable.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/Wrappers.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/actions.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/index.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/reducer.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/saga.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/selectors.js" afterDir="false" />
@@ -45,6 +42,10 @@
       <change afterPath="$PROJECT_DIR$/server/middlewares/addDevMiddlewares.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/middlewares/frontendMiddleware.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/port.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/App/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/Loadable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/Loadable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618850992510</updated>
-      <workItem from="1618850994080" duration="6505000" />
+      <workItem from="1618850994080" duration="7975000" />
     </task>
     <servers />
   </component>
