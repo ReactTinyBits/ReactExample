@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70d9ae1d-b5c4-4bf0-a1a4-58ae56e3d575" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/spa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/apphistory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/configureStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/Wrappers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/saga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/Loadable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/Wrappers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/saga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/Routes/EmployeeInfoRoute/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/layouts/BasicLayout/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routing/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/checkStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/injectSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/localStorage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/sagaInjectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/scripts/npmcheckversion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/webpack/webpack.base.babel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/webpack/webpack.dev.babel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/argv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middlewares/addDevMiddlewares.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middlewares/frontendMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/port.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1rOdIVpik8pZSLuntpbdwOFTZo7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/containers/App" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="D:\fallingsappy\Data\Programming\ReactTinyBits\ReactExample\spa\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\fallingsappy\Data\Programming\ReactTinyBits\ReactExample\spa\app\containers\App" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\fallingsappy\Data\Programming\ReactTinyBits\ReactExample\spa\internals\scripts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70d9ae1d-b5c4-4bf0-a1a4-58ae56e3d575" name="Default Changelist" comment="" />
+      <created>1618850992510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618850992510</updated>
+      <workItem from="1618850994080" duration="6505000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "es6",
+    "module": "esnext",
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "baseUrl": "./app",
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es7",
+      "es2017",
+      "esnext.array"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "strictFunctionTypes": false,
+    "pretty": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "app",
+  ],
+  "exclude": [
+    "app/app.tsx"
+  ]
+}
