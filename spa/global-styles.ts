@@ -44,7 +44,7 @@ const GlobalStyle = createGlobalStyle`
     .ui.form textarea:focus,
     textarea {
       background-color: rgba(240,240,240,255);
-      color:gray;
+      color:black;
       border-radius: 3px;
       border: 1px solid rgba(240,240,240,255);
       padding: 1rem;

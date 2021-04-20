@@ -38,8 +38,8 @@ class Input extends React.Component {
     };
 
     renderBaseInput = hasError => (
-        <>
-            {this.props.label ? <Label error={hasError}>{this.props.label}</Label> : ''}
+        <div style={{position: 'relative'}}>
+            {this.props.label && this.state.value ? <Label error={hasError}>{this.props.label}</Label> : ''}
             <BaseInput
                 type={this.props.type || 'text'}
                 ref={this.baseInputRef}
@@ -48,7 +48,7 @@ class Input extends React.Component {
                 onValidationResult={this.handleErrorPassing}
                 onChange={this.handleChangePassing}
             />
-        </>
+        </div>
     );
 
     render() {

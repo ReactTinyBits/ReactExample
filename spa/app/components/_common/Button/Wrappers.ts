@@ -2,17 +2,7 @@ import styled from "styled-components";
 import { Button } from 'semantic-ui-react';
 import omitProps from '../../../HOCs/omitProps';
 
-export const BaseButtonWrapper = styled(omitProps(Button, 'green', 'slim'))<{
-    textcolor: string;
-    backgroundcolor: string;
-    hovercolor: string;
-    shadow: string;
-    border: string;
-    padding: string;
-    borderradius: string;
-    slim: boolean;
-    fontSize: string;
-}>`
+export const BaseButtonWrapper = styled(omitProps(Button, 'green', 'slim'))`
   &&&&&& {
     margin: 0;
     font-size: 1rem !important;
@@ -20,7 +10,7 @@ export const BaseButtonWrapper = styled(omitProps(Button, 'green', 'slim'))<{
     display: block;
     padding: 1rem 1.5rem;
     min-width: 50%;
-    min-height: 1.5rem;
+    min-height: 4rem;
 
     box-shadow: 0 3px 5px 0 #ccc;
     font-weight: bold;

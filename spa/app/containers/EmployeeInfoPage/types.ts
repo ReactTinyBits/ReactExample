@@ -6,6 +6,8 @@ export interface EmployeeInfo {
     birthDay: Date;
     Address: string;
     CompanyName: string;
+    email: string;
+    phone: string;
 }
 
 export type State = {

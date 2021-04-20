@@ -18,7 +18,6 @@ const BaseDateInput = ({ value, onChange, format = DATE_FORMAT, ...dateInputProp
         <DateInputWrapper
             name="date"
             icon="calendar alternate outline"
-            inlineLabel
             value={value}
             onChange={onDateChange}
             dateFormat={format}
