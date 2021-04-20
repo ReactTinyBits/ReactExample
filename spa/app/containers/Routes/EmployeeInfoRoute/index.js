@@ -1,15 +1,8 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
-const EmployeeInfoRoute = ({ component: Component, ...rest }) => {
-    return (
-        <Route
-            {...rest}
-            render={props => {
-                return <Component {...props} />;
-            }}
-        />
-    );
-};
+const EmployeeInfoRoute = ({ component: Component, ...rest }) => (
+  <Route {...rest} render={props => <Component {...props} />} />
+);
 
 export default EmployeeInfoRoute;

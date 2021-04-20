@@ -1,3 +1,3 @@
 export default {
-    SAVE_EMPLOYEE: 'saveEmployee',
+  SAVE_EMPLOYEE: 'saveEmployee',
 };

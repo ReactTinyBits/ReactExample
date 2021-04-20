@@ -76,10 +76,6 @@ const GlobalStyle = createGlobalStyle`
     }
 
     ${globalStylesCalendar};
-    
-    .ui.input > input:active, .ui.input.down input {
-      background-color: grey;
-    }
 `;
 
 export default GlobalStyle;

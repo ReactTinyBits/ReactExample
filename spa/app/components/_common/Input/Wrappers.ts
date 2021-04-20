@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-export const Label = styled.label<{error?: boolean}>`
+export const Label = styled.label<{ error?: boolean }>`
   &&&&& {
     color: gray;
-    font-size: 0.9375rem;
+    font-size: 0.8rem;
     font-weight: 500;
     position: absolute;
     top: 0.3rem;
@@ -14,8 +14,12 @@ export const Label = styled.label<{error?: boolean}>`
     animation: fade 2s linear;
 
     @keyframes fade {
-      0% { opacity: 0 }
-      50% { opacity: 1 }
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
     }
   }
 `;

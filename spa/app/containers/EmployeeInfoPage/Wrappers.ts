@@ -4,7 +4,7 @@ export const Header = styled.div`
   letter-spacing: 2px;
   margin-bottom: 1rem;
   font-weight: bold;
-  color: rgba(51,51,51,255);
+  color: rgba(51, 51, 51, 255);
   font-size: 1.5rem;
 `;
 

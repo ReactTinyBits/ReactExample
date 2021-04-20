@@ -125,6 +125,7 @@ export function EmployeeInfoPage(props: {
                             </HalfSizedDiv>
                             <HalfSizedDivMargened>
                                 <BaseDateInput
+                                    label="Дата рождения"
                                     placeholder="Дата рождения"
                                     value={employeeData?.birthDay} onChange={onChangeDayTo}/>
                             </HalfSizedDivMargened>
