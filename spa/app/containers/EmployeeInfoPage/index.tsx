@@ -6,21 +6,29 @@ import { Form } from "semantic-ui-react";
 import Input from "../../components/_common/Input";
 import {Masks} from "../../helpers/Masks";
 import { BaseButtonWrapper } from 'components/_common/Button/Wrappers';
-
+import reducer from "./reducer";
+import saga from "./saga";
+import injectSaga from "../../utils/injectSaga";
+import {DAEMON} from "../../utils/constants";
+import injectReducer from "../../utils/injectReducer";
+import {saveEmployeeInfo} from "./actions";
+import {EmployeeInfo} from "./types";
 
 export function EmployeeInfoPage(props: {
-
+    saveEmployeeInfo: (employeeInfo: EmployeeInfo) => void;
 }) {
     const {
+        saveEmployeeInfo
     } = props;
 
+    const [employeeInfo, setEmployeeInfo] = useState<EmployeeInfo>()
     const [presetName, setPresetName] = useState<string | null>(null);
 
     return (
         <div style={{ width: '35rem'}}>
             <Form>
                 <Form.Field>
-                    <div style={{marginBottom: '1rem', fontWeight: 'bold', color: 'rgba(51,51,51,255)', fontSize: '1.5rem'}}>Информация о сотруднике</div>
+                    <div style={{ letterSpacing: '2px', marginBottom: '1rem', fontWeight: 'bold', color: 'rgba(51,51,51,255)', fontSize: '1.5rem'}}>Информация о сотруднике</div>
                 </Form.Field>
                 <Form.Field>
                     <Input placeholder="Фамилия" input={{ maxLength: 150 }} onChange={({ target: { value } }) => setPresetName(value)}/>
@@ -75,7 +83,7 @@ export function EmployeeInfoPage(props: {
                 </Form.Field>
                 <Form.Field>
                     <div>
-                        <BaseButtonWrapper style={{float: 'right'}}>СОХРАНИТЬ</BaseButtonWrapper>
+                        <BaseButtonWrapper onClick={() => saveEmployeeInfo(employeeInfo)} style={{float: 'right'}}>СОХРАНИТЬ</BaseButtonWrapper>
                     </div>
                 </Form.Field>
             </Form>
@@ -89,10 +97,14 @@ const mapStateToProps = createStructuredSelector({
 
 function mapDispatchToProps(dispatch) {
     return {
+        saveEmployeeInfo: employeeInfo => dispatch(saveEmployeeInfo(employeeInfo)),
         dispatch,
     };
 }
 
+const withReducer = injectReducer({ key: 'employeeInfoPage', reducer });
+const withSaga = injectSaga({ key: 'employeeInfoPage', saga, mode: DAEMON });
+
 const withConnect = connect(mapStateToProps, mapDispatchToProps);
 
-export default compose(withConnect)(EmployeeInfoPage);
+export default compose(withConnect, withSaga, withReducer)(EmployeeInfoPage);

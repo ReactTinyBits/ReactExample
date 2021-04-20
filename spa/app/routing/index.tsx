@@ -1,9 +1,9 @@
 import { Route, RouteProps } from 'react-router-dom';
 import React from 'react';
-
+import EmployeeInfoPage from '../containers/EmployeeInfoPage/Loadable';
 import EmployeeInfoRoute from '../containers/Routes/EmployeeInfoRoute';
 import BasicLayout from "../layouts/BasicLayout";
-import {EmployeeInfoPage} from "../containers/EmployeeInfoPage";
+
 
 const AppRouting: LayoutRouteComponent[] = [
     {
