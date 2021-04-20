@@ -12,6 +12,7 @@
   "author": "fallingsappy",
   "scripts": {
     "npmcheckversion": "node ./internals/scripts/npmcheckversion.js",
+    "postinstall": "node ./internals/scripts/semantic-ui-less-fix.js",
     "start": "cross-env NODE_ENV=development TARGET_ENV=development node server"
   },
   "resolutions": {

@@ -11,6 +11,7 @@ import App from './containers/App';
 import configureStore from './configureStore';
 import { loadState, saveState } from './utils/localStorage'
 import _ from 'lodash';
+import 'theme/semantic.less';
 
 const openSansObserver = new FontFaceObserver('Open Sans', {});
 

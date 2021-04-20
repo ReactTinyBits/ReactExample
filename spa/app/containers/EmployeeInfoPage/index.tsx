@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useCallback, useEffect, useState} from 'react';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import { compose } from 'redux';
@@ -13,6 +13,10 @@ import {DAEMON} from "../../utils/constants";
 import injectReducer from "../../utils/injectReducer";
 import {saveEmployeeInfo} from "./actions";
 import {EmployeeInfo} from "./types";
+import {DateInput} from "semantic-ui-calendar-react/dist/inputs";
+import BaseDateInput from "../../components/_common/BaseDateInput";
+import dateFns from "date-fns";
+import {formatDate} from "../../helpers/Dates";
 
 export function EmployeeInfoPage(props: {
     saveEmployeeInfo: (employeeInfo: EmployeeInfo) => void;
@@ -20,6 +24,18 @@ export function EmployeeInfoPage(props: {
     const {
         saveEmployeeInfo
     } = props;
+
+    const [selectedDayTo, setSelectedDayTo] = useState(formatDate(dateFns.endOfMonth(new Date())));
+
+    useEffect(() => {
+    }, []);
+
+    const onChangeDayTo = useCallback(
+        date => {
+            setSelectedDayTo(date);
+        },
+        [],
+    );
 
     const [employeeInfo, setEmployeeInfo] = useState<EmployeeInfo>()
     const [presetName, setPresetName] = useState<string | null>(null);
@@ -45,7 +61,9 @@ export function EmployeeInfoPage(props: {
                             <Input onChange={({ target: { value } }) => setPresetName(value)}/>
                         </div>
                         <div style={{ flex: 1, marginLeft: '1.5rem'}}>
-                            <Input input={{ maxLength: 150 }} onChange={({ target: { value } }) => setPresetName(value)}/>
+                            <BaseDateInput
+                                placeholder="Дата рождения"
+                                value={selectedDayTo} onChange={onChangeDayTo}/>
                         </div>
                     </div>
                 </Form.Field>

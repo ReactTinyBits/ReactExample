@@ -2,63 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70d9ae1d-b5c4-4bf0-a1a4-58ae56e3d575" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/spa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/HOCs/omitProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/_common/BaseInput/Wrappers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/_common/BaseInput/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/_common/Button/BaseButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/_common/Button/Wrappers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/_common/Input/Wrappers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/_common/Input/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/containers/App/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/containers/App/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/containers/App/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/containers/App/saga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/Wrappers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/containers/Routes/EmployeeInfoRoute/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/Masks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/layouts/BasicLayout/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/base/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/employee/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/employee/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/employee/urls.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/types.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/theme/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/checkStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/injectReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/injectSaga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/localStorage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/reducerInjectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/request.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/sagaInjectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global-styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internals/webpack/webpack.base.babel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internals/webpack/webpack.dev.babel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/argv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/logger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/middlewares/addDevMiddlewares.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/middlewares/frontendMiddleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/port.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/_common/BaseDateInput/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/_common/BaseDateInput/wrappers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/Dates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/theme/semantic.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/theme/theme.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global-styles-calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/scripts/semantic-ui-less-fix.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/App/Wrappers.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/App/Wrappers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/App/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/Loadable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/Loadable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routing/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internals/scripts/npmcheckversion.js" beforeDir="false" afterPath="$PROJECT_DIR$/internals/scripts/npmcheckversion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global-styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/global-styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,9 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
-        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -136,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618850992510</updated>
-      <workItem from="1618850994080" duration="23142000" />
+      <workItem from="1618850994080" duration="28819000" />
     </task>
     <servers />
   </component>
