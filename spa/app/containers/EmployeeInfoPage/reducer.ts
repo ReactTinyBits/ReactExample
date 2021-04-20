@@ -7,13 +7,13 @@ import {
     SAVE_EMPLOYEE_INFO_ERROR,
 } from './constants';
 import { State } from './types';
-export type TariffPageAction = ActionType<typeof Actions>;
+export type EmployeeInfoAction = ActionType<typeof Actions>;
 
 export const initialState: any = fromJS({
     loading: false,
 });
 
-function employeeInfoPageReducer(state: any = initialState, action: TariffPageAction): State {
+function employeeInfoPageReducer(state: any = initialState, action: EmployeeInfoAction): State {
     switch (action.type) {
         case SAVE_EMPLOYEE_INFO:
             return state.set('loading', true);

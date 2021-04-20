@@ -18,9 +18,15 @@
       <change beforePath="$PROJECT_DIR$/app/components/_common/Button/Wrappers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/Button/Wrappers.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/_common/Input/Wrappers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/Input/Wrappers.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/_common/Input/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/Input/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/App/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/App/constants.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/Wrappers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/Wrappers.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/selectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/types.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/global-styles-calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/global-styles-calendar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/global-styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/global-styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -34,9 +40,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -100,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618850992510</updated>
-      <workItem from="1618850994080" duration="36541000" />
+      <workItem from="1618850994080" duration="39203000" />
     </task>
     <servers />
   </component>
