@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
     .ui.input.error > input,
     .error.field .ui.input input {
       background-color: blue;
-      border-color: red !important;
+      border: 2px solid red;
       color: blue;
       box-shadow: none;
     }
@@ -57,10 +57,22 @@ const GlobalStyle = createGlobalStyle`
         color: gray !important;
       }
           
+      .menu {
+        margin-top: 0.5rem;
+      }
+      
       .menu > .item {
         border-color: gray;
-        color: blue;
+        color: black;
+        &:hover {
+          color: white;
+          background-color: rgb(79, 203, 114);
+        }
       }
+    }
+
+    .ui.selection.dropdown {
+      padding-top: 1.4rem !important;
     }
 
     ${globalStylesCalendar};

@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70d9ae1d-b5c4-4bf0-a1a4-58ae56e3d575" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/components/Icons/Dropdown/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Icons/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/_common/BaseDropdown/Wrappers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/_common/BaseDropdown/index.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/helpers/Dates.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/theme/semantic.less" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/theme/theme.config" afterDir="false" />
@@ -10,6 +14,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/_common/BaseDateInput/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/BaseDateInput/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/_common/BaseInput/Wrappers.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/BaseInput/Wrappers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/_common/BaseInput/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/BaseInput/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/_common/Button/Wrappers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/Button/Wrappers.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/_common/Input/Wrappers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/Input/Wrappers.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/_common/Input/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/Input/index.js" afterDir="false" />
@@ -28,9 +34,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -94,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618850992510</updated>
-      <workItem from="1618850994080" duration="32365000" />
+      <workItem from="1618850994080" duration="35758000" />
     </task>
     <servers />
   </component>
