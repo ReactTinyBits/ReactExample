@@ -9,7 +9,6 @@
       <change afterPath="$PROJECT_DIR$/app/helpers/Dates.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/theme/semantic.less" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/theme/theme.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global-styles-calendar.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/internals/scripts/semantic-ui-less-fix.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.tsx" afterDir="false" />
@@ -22,6 +21,7 @@
       <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/Wrappers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/Wrappers.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global-styles-calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/global-styles-calendar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/global-styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/global-styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -100,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618850992510</updated>
-      <workItem from="1618850994080" duration="35758000" />
+      <workItem from="1618850994080" duration="36541000" />
     </task>
     <servers />
   </component>

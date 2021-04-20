@@ -31,6 +31,7 @@ export function EmployeeInfoPage(props: {
     const [employeeData, setEmployeeData] = useState<EmployeeInfo>();
     const [validation, setValidation] = useState<{ [key: string]: any }>({});
     const [saveEnabled, setSaveEnabled] = useState<boolean>(false);
+    const [gender, setGender] = useState<number>(0);
 
     const onChange = ({ target: { id, value } }) => {
         setEmployeeData({ ...employeeData, [id]: value });
@@ -41,10 +42,8 @@ export function EmployeeInfoPage(props: {
         { key: 1, value: 1, text: 'Женский' },
     ];
 
-    const changePeriod = (event, { value: period }) => {
-/*        if (currentPeriod === period) return;
-        setCurrentPeriod(period);
-        getModalIngoingDocuments(0, period);*/
+    const changeGender = (event, { value: gender }) => {
+        setGender(gender);
     };
 
     const onValidation = (errors, target) => {
@@ -68,7 +67,7 @@ export function EmployeeInfoPage(props: {
 
     const onChangeDayTo = useCallback(
         date => {
-            setSelectedDayTo(date);
+            setEmployeeData({ ...employeeData, birthDay: date });
         },
         [],
     );
@@ -116,11 +115,10 @@ export function EmployeeInfoPage(props: {
                     <FlexContainer style={{display: 'flex'}}>
                         <HalfSizedDiv>
                             <BaseDropdown
-                                id="gender"
                                 label="Пол"
                                 placeholder="Пол"
                                 color="gray"
-                                onChange={changePeriod}
+                                onChange={changeGender}
                                 selection
                                 defaultValue={0}
                                 options={GenderOptions}

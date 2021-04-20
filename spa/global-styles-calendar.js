@@ -51,7 +51,7 @@ const globalStylesCalendar = css`
         }
 
         &:hover {
-          background-color: rgba(74, 185, 105, 255); !important;
+          background-color: rgb(79, 203, 114); !important;
           cursor: pointer;
           transition: background-color 0.5s;
           color: rgba(0, 0, 0, 0.87) !important;
