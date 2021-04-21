@@ -1,31 +1,15 @@
 import { createGlobalStyle } from 'styled-components';
-import { DefaultFont } from './app/theme/styles';
+import {DefaultFont} from "./app/theme/styles";
 import globalStylesCalendar from './global-styles-calendar';
 
 const GlobalStyle = createGlobalStyle`
-      .ui.input.error > input, 
-      .error.field .ui.input input, 
-      .error.field .ui.input input[type], 
-      .error.field textarea, 
-      .ui.form .error.field textarea, 
-      .ui.form .error.field input, 
-      .ui.form .error.field input[type], 
-      .ui.form .field.error .input, 
-      .ui.form .fields.error .field .input, 
-      .ui.form .fields.error .field .ui.dropdown, 
-      .ui.form .fields.error .field .ui.dropdown .item, 
-      .ui.form .field.error .ui.dropdown, 
-      .ui.form .field.error .ui.dropdown .text, 
-      .ui.form .field.error .ui.dropdown .item, 
-      .ui.selection.dropdown.error, 
-      .ui.form .fields.error .field .ui.dropdown .menu .selected.item, 
-      .ui.form .field.error .ui.dropdown .menu .selected.item {
-        border-color: #e64c66 !important;
-        background-color: rgba(240,240,240,255) !important;
-        color: #2B476A;
-        margin-bottom: 0 !important;
-        box-shadow: none;
-      }
+    .ui.input.error > input,
+    .error.field .ui.input input {
+      background-color: blue;
+      border: 2px solid red;
+      color: blue;
+      box-shadow: none;
+    }
 
     button, input, optgroup, select, textarea {
       ${DefaultFont};
