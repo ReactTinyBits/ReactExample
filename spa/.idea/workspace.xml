@@ -3,42 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="70d9ae1d-b5c4-4bf0-a1a4-58ae56e3d575" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/HOCs/omitProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/HOCs/omitProps.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Icons/Dropdown/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Icons/Dropdown/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Icons/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Icons/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/_common/BaseDateInput/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/BaseDateInput/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/_common/BaseDropdown/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/BaseDropdown/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/_common/BaseInput/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/BaseInput/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/_common/Button/BaseButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/Button/BaseButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/_common/Input/Wrappers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/Input/Wrappers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/_common/Input/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/Input/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/App/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/App/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/App/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/App/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/App/saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/Wrappers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/Wrappers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/_common/BaseInput/Wrappers.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/_common/BaseInput/Wrappers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/selectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/EmployeeInfoPage/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/Routes/EmployeeInfoRoute/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/Routes/EmployeeInfoRoute/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/Dates.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/Dates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/Masks.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/Masks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layouts/BasicLayout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layouts/BasicLayout/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routing/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/base/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/base/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/employee/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/employee/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/employee/types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/employee/urls.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/employee/urls.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/types.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/theme/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/theme/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/checkStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/checkStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/injectSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/injectSaga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/localStorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/localStorage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/request.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/sagaInjectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/sagaInjectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/global-styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/global-styles.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

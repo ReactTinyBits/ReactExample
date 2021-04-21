@@ -1,13 +1,13 @@
 import { createGlobalStyle } from 'styled-components';
-import {DefaultFont} from "./app/theme/styles";
+import { DefaultFont } from './app/theme/styles';
 import globalStylesCalendar from './global-styles-calendar';
 
 const GlobalStyle = createGlobalStyle`
     .ui.input.error > input,
     .error.field .ui.input input {
-      background-color: blue;
-      border: 2px solid red;
-      color: blue;
+      background-color: rgba(240,240,240,255) !important;
+      border: 2px solid rgba(232, 109, 68, 255);
+      color: black !important;
       box-shadow: none;
     }
 

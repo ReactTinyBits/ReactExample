@@ -81,6 +81,7 @@ export function EmployeeInfoPage(props: {
                             noSpaceError
                             id="secondName"
                             label="Фамилия"
+                            field
                             placeholder="Фамилия"
                             input={{ maxLength: 150 }}
                             onChange={onChange}
@@ -93,6 +94,7 @@ export function EmployeeInfoPage(props: {
                             noSpaceError
                             id="firstName"
                             label="Имя"
+                            field
                             placeholder="Имя"
                             input={{ maxLength: 150 }}
                             onChange={onChange}
@@ -141,6 +143,7 @@ export function EmployeeInfoPage(props: {
                                     validate="phone"
                                     placeholder="Мобильный телефон"
                                     showMask
+                                    field
                                     mask={Masks.telephone}
                                     onChange={onChange}
                                     onValidationResult={onValidation}
@@ -148,6 +151,7 @@ export function EmployeeInfoPage(props: {
                             </HalfSizedDiv>
                             <HalfSizedDivMargened>
                                 <Input
+                                    field
                                     noSpaceError
                                     id="email"
                                     label="Email"

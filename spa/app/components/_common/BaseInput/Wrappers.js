@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ErrorSpan = styled.span`
-  color: rgba(232,109,68,255);
+  color: rgba(232, 109, 68, 255);
   font-size: 12px;
   position: ${props => (props.noSpaceError ? 'absolute' : 'relative')};
   left: 0;
